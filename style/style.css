@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/*
+   Mobile Version 
+*/
+
+body{
+    background-image: url(./assets/bg-main-mobile.png);
+}
+
+.starter{
+    display: none;
+}
+
+/*
+  ========================================
+    Header 
+  ========================================
+*/
+
+.equalizer{
+    padding: 39.99px 204.76px 64.01px 24.15px;
+}
+
+
+/*
+  ========================================
+    Section="introduction" 
+  ========================================
+*/
+
+.introduction{
+    padding: 0 24px 68px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    color: #191826;
+    padding-bottom: 20px;
+}
+
+.pro-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    width: 34ch;
+    margin-bottom: -61px;
+}
+
+/*
+  ========================================
+    Section="main" 
+  ========================================
+*/
+
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photos{
+    Width: 375px;
+    height: 600px;
+    background: #191826;
+    border-radius: 12px;
+    position: relative;
+    margin: 200px 0 0 0;
+}
+
+.iphone{
+    display: flex;
+    justify-content: center;
+}
+
+.phone{
+    width: 208.97px;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    transform: translateY(-17%);
+}
+
+.photo-2{
+    display: flex;
+    justify-content: center;
+}
+
+.styling{
+    margin: auto;
+}
+
+.premium{
+    width: 375px;
+    height: 546px;
+    background: #FA7453;
+    border-radius: 12px;
+    position: absolute;
+    top: 620px; 
+}
+
+.EQ{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+    padding: 48px 37px 12px;
+}
+
+.service{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+    padding: 0 37px 36px;
+}
+
+
+.fee{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #FCFAF9;
+    padding: 0 42px 32px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+
+.download{
+    width: 296px;
+    height: 61px;  
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple{
+    background: #191826;
+    margin: 0 37px 16px;
+}
+
+.ios{
+    background: #FCFAF9;
+    margin: 0 37px 16px;
+}
+
+h4{
+    padding-left: 7.92px;
+}
+
+.h4-1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+}
+
+.h4-2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #191826;
+}
+
+
+/*
+  ========================================
+    Footer
+  ========================================
+*/
+
+footer{
+    margin: 400px 0 81.5px 25.15px;
+}
+
+.equalizer2{
+    padding-bottom: 32.01px;
+    margin-top: 33px;
+}
+
+.rights{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+
+.questions{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    width: 32ch;
+}
+
+.icons{
+    padding-top: 66px;
+}
+
+.icons img{
+    margin-right: 20px;
+}
+
+/*
+   Tablet Version 
+*/
+
+@media screen and (min-width:768px) {
+
+    body{
+        background-image: url(./assets/bg-main-tablet.png);
+        position: relative;
+    }
+
+    .starter{
+        display: inline;
+        position: absolute;
+        width: 257px;
+        left: 539px;
+        top: -24px;
+    }
+
+    /*
+    ========================================
+        Header 
+    ========================================
+    */
+
+    .equalizer{
+        padding: 62px 351px 95px 39.5px;
+    }
+
+    /*
+    ========================================
+        Section="introduction" 
+    ========================================
+    */
+
+    .introduction{
+        padding-left: 39px;
+    }
+
+    h1{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        width: 11ch;
+    }
+
+    .pro-descr{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 28px;
+        width: 514px;
+    }
+
+    /*
+    ========================================
+        Section="main" 
+    ========================================
+    */
+
+    
+    .photos{
+        width: 696px;
+        position: relative;
+        margin: 166px 0 0 0;
+    }
+    
+    .iphone{
+        position: relative;
+    }
+    
+    .phone{
+        width: 270.21px;
+        position: absolute;
+        top: 0%;
+        transform: translateY(-17%);
+        left: 55px;
+    }
+    
+    .premium{
+        width: 399px;
+        height: 546px;
+        position: absolute;
+        top: 377px;
+        left: 271px;
+    }
+
+    /*
+     ========================================
+        Footer
+    ========================================
+    */
+
+    footer{
+        margin: 232px 0 81.5px 33px;
+        position: relative;
+    }
+
+    .questions{
+        width: 39ch;
+    }
+
+    .icons{
+        position: absolute;
+        right: 39px;
+        bottom: 26.5px;
+    }
+}
+
+/*
+   Original viewport 
+*/
+
+@media screen and (min-width: 1366px) {
+
+    .starter{
+        left: 1090px;
+        top: -40px;
+    }
+
+    .premium{
+        top: 350px;
+        left: 735px;
+        z-index: 3;
+    }
+    
+    .apple{
+        background: #191826;
+        margin: 0 54px 40px;
+        cursor: pointer;
+    }
+
+    .ios{
+        background: #FCFAF9;
+        margin: 0 54px 40px;
+        cursor: pointer;
+    }
+
+    .apple:hover{
+        background-color: #66E2DC;;
+    }
+    
+    .ios:hover{
+        background-color: #FFB964;
+    }
+}
+
+/*
+   Desktop Version 
+*/
+
+@media screen and (min-width: 1440px) {
+    
+    body{
+        background-image: url(./assets/bg-main-desktop.png);
+    }
+
+    .starter{
+        width: 300px;
+        left: 1139px;
+        top: -40px;
+    }
+
+    /*
+    ========================================
+        Header 
+    ========================================
+    */
+
+    .equalizer{
+        padding: 62px 815px 127px 166px;
+    }
+
+    /*
+    ========================================
+        Section="introduction" 
+    ========================================
+    */
+
+    .introduction{
+        padding-left: 166px;
+    }
+
+    h1{
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+        width: 16ch;
+        padding-bottom: 0;
+    }
+
+    .pro-descr{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        width: 825px;
+        padding-top: 40px;
+        padding-bottom: 127px;
+    }
+
+    /*
+    ========================================
+        Section="main" 
+    ========================================
+    */
+
+    
+    .photos{
+        width: 1110px;
+        margin: 165px 0 0 0;
+    }
+    
+    .iphone{
+        position: relative;
+    }
+    
+    .phone{
+        width: 299px;
+        top: 0%;
+        transform: translateY(-32%);
+        left: 155px;
+        z-index: 3;
+    }
+    
+    .photo-2{
+        display: inline-block;
+        position: relative;
+    }
+
+    .styling-2{
+        position: absolute;
+        left: 375px;
+        top: -65px;
+        z-index: 1;
+    }
+
+    .premium{
+        width: 446px;
+        height: 625px;
+        top: 250px;
+        left: 773px;
+        z-index: 3;
+    }
+
+    .EQ{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        padding: 58px 54px 22px;
+    }
+    
+    .service{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        padding: 0 54px 39px;
+    }
+    
+    
+    .fee{
+        padding: 0 54px 46px;
+    }
+    
+    .download{
+        width: 333px;
+        height: 61px;  
+        border-radius: 12px;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .apple{
+        background: #191826;
+        margin: 0 54px 16px;
+        cursor: pointer;
+    }
+    
+    .apple:hover{
+        background-color: #66E2DC;;
+    }
+
+    .ios{
+        background: #FCFAF9;
+        margin: 0 54px 16px;
+        cursor: pointer;
+    }
+
+    .ios:hover{
+        background-color: #FFB964;
+    }
+
+    /*
+     ========================================
+        Footer
+    ========================================
+    */
+
+    footer{
+        margin: 0;
+        position: relative;
+    }
+
+    .equalizer2{
+        position: absolute;
+        top: 202px;
+        left: 166.15px;
+    }
+
+    .rights{
+        position: absolute;
+        top: 202px;
+        left: 500px;    
+    }
+
+    .questions{
+        position: absolute;
+        top: 227px;
+        left: 500px;
+    }
+
+    .icons{
+        position: absolute;
+        top: 155px;
+    }
+
+    .facebook{
+        cursor: pointer;
+    }
+
+    .facebook:hover{
+        background: #FA7453;;
+    }
+}
