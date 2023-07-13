@@ -29,8 +29,8 @@ In this challenge, you have been tasked with crafting an engaging layout, select
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/Tornike-Peradze/Equalizer-ladning-page)
+- Live Site URL: (https://tornike-peradze.github.io/Equalizer-ladning-page/)
 
 ## My process
 
@@ -74,5 +74,3 @@ I aspire to dive deeper into CSS and explore more advanced techniques and concep
 
 - Github - [@Tornike-Peradze](https://github.com/Tornike-Peradze);
 - Linkdin - [@Tornike Peradze](https://www.linkedin.com/in/tornike-peradze-ab508a1a4/);
-
-
